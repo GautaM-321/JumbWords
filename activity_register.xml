@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".register">
+
+    <Button
+        android:id="@+id/submitregbutton"
+        android:layout_width="182dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/buttonshape"
+
+        android:text="Submit"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="334dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="451dp"
+        android:background="@drawable/black"
+        android:ems="10"
+        android:hint="   enter name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="337dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/black"
+        android:ems="10"
+        android:hint="   enter 4 character password ####"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/logo"
+        android:layout_width="233dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="595dp"
+        android:background="@drawable/buttonshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+</RelativeLayout>

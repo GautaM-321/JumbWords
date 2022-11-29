@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".login">
+
+    <Button
+        android:id="@+id/submitloginbutton"
+        android:layout_width="164dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="175dp"
+        android:background="@drawable/buttonshape"
+        android:text="Submit"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/loginlogo"
+        android:layout_width="254dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="593dp"
+        android:background="@drawable/buttonshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="234dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="482dp"
+        android:background="@drawable/black"
+        android:hint="        enter username"
+
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="228dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="355dp"
+        android:background="@drawable/black"
+        android:hint="         enter password"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>
